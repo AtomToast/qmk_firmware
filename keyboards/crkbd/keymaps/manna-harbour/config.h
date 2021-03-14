@@ -4,6 +4,8 @@
 
 #define EE_HANDS
 
+#define BILATERAL_COMBINATIONS 500
+
 #if defined MH_MODULE_TRACKPOINT && defined PS2_MOUSE_ENABLE
   // clock on pin 3 (d0, int0)
   #define PS2_CLOCK_PORT PORTD
